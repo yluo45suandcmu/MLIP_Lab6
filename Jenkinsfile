@@ -20,7 +20,7 @@ pipeline {
 
                 # TODO Complete the command to run pytest
                 # sudo /PATH/TO/CONDA run -n <Envinronment Name> <Command you want to run>
-                source mlip/bin/activate
+                source /home/yanluo/mlip/bin/activate
                 
                 # Run pytest
                 pytest
